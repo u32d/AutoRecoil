@@ -1,0 +1,32 @@
+# 构建输出
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+build/
+
+# 运行时产物（诊断日志）
+recoil-diag.log
+*.log
+
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pidb
+
+# SharpDevelop
+*.sdsettings
+*.booproj
+
+# 测试 / 覆盖率
+TestResults/
+*.coverage
+*.psess
+*.vspx
+
+# 系统杂项
+Thumbs.db
+Desktop.ini
